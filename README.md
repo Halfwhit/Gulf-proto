@@ -2,10 +2,12 @@
 A simple minigolf game written with Godot.
 
 Current:
-- Collisions
+- GUI, Screens, menu
+- Expand tileset
 
 Implemented:
 - Ball control
+- Wall collisions
 
 Planned:
 - Scoring
