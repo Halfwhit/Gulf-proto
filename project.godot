@@ -32,7 +32,6 @@ touch_main=[ Object(InputEventMouseButton,"resource_local_to_scene":false,"resou
 2d/cell_size=50
 2d/default_gravity=0
 2d/default_gravity_vector=Vector2( 0, 0 )
-2d/default_linear_damp=1.0
 
 [rendering]
 
