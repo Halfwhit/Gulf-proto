@@ -29,7 +29,7 @@ func _physics_process(delta):
 
 func check_hit():
 	if Input.is_action_just_pressed("touch_main"):
-		ball_vector = get_local_mouse_position().clamped(max_force)
+		ball_vector = -get_local_mouse_position().clamped(max_force)
 
 #func _integrate_forces(state):
 #	if Input.is_action_just_pressed("touch_main"):
