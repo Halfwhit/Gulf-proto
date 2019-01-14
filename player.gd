@@ -10,10 +10,10 @@ export (float) var friction
 
 func _ready():
 	ball_color = Color(1.0, 0.0, 0.0, 0.5)
-	max_force = 200
+	max_force = 500
 
 func _draw():
-	draw_line(Vector2(), get_local_mouse_position().clamped(max_force), Color(0.0, 0.0, 0.0), 1.0, false)
+	draw_line(Vector2(), get_local_mouse_position().clamped(max_force/2), Color(0.0, 0.0, 0.0), 1.0, false)
 	#draw_circle(Vector2(), 25, ball_color)
 
 func _process(delta):
